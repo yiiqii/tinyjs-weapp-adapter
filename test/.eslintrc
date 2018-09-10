@@ -1,0 +1,20 @@
+{
+  "extends": "../.eslintrc",
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "describe": true,
+    "jest": true,
+    "expect": true,
+    "beforeEach": true,
+    "it": true
+  },
+  "rules": {
+    "func-names": 0,
+    "no-var": 0,
+    "no-magic-numbers": 0,
+    "arrow-body-style": 0,
+    "no-unused-expressions": 0
+  }
+}
