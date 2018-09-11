@@ -1,4 +1,4 @@
-import { loadEnv } from './vm'
+import './vm'
 import document from '../src/document'
 
 describe('document', () => {

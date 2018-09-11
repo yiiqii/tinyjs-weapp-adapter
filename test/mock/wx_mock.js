@@ -5,10 +5,32 @@ import Canvas from './Canvas_mock'
 const wx = {
   getSystemInfoSync() {
     return {
-      screenWidth: 300,
-      screenHeight: 600,
+      SDKVersion: '2.2.3',
+      batteryLevel: 100,
+      benchmarkLevel: 1,
+      brand: 'devtools',
       devicePixelRatio: 2,
+      fontSizeSetting: 16,
+      language: 'zh_CN',
+      model: 'iPhone 7',
+      pixelRatio: 2,
+      platform: 'devtools',
+      screenHeight: 667,
+      screenWidth: 375,
+      statusBarHeight: 20,
+      system: 'iOS 10.0.1',
+      version: '6.6.3',
+      windowHeight: 667,
+      windowWidth: 375,
     }
+  },
+  getStorageInfoSync() {
+    return {
+      keys: [],
+    }
+  },
+  getPerformance() {
+    return performance
   },
   createCanvas() {
     return new Canvas()
@@ -30,16 +52,6 @@ const wx = {
   offTouchEnd() {},
   onTouchCancel(callback) {},
   offTouchCancel() {},
-  getStorageInfoSync() {
-    return {
-      keys: [],
-    }
-  },
-  getPerformance() {
-    return {
-      now: () => Date.now(),
-    }
-  },
 }
 
 module.exports = wx

@@ -1,4 +1,4 @@
-import { loadEnv } from './vm'
+import './vm'
 import HTMLElement from '../src/HTMLElement'
 
 describe('HTMLElement', () => {

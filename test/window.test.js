@@ -1,4 +1,4 @@
-import { loadEnv } from './vm'
+import './vm'
 import * as window from '../src/window'
 
 describe('window', () => {
