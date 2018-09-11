@@ -1,3 +1,10 @@
+/*!
+ * Name: tinyjs-weapp-adapter
+ * Description: Tiny.js adapter for WeChat Mini Program
+ * Author: yiqi
+ * Version: v0.0.1
+ */
+
 var window$1 = /*#__PURE__*/Object.freeze({
   get document () { return document$$1; },
   get navigator () { return navigator; },
