@@ -7,7 +7,6 @@
     "email": "e@yufangjun.com"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development --inline --disable-host-check",
     "prebuild": "rm -rf dist",
     "build": "rollup -c",
     "test": "jest"
